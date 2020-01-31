@@ -7,15 +7,15 @@
 		revision="1.0"
 		conf="compile"
 		confs="compile, runtime, test, provided, optional, compile-internal, runtime-internal, test-internal, plugin, pom, scala-tool"
-		date="20200129140412"/>
+		date="20200131102420"/>
 	<dependencies>
 		<module organisation="com.databricks" name="spark-xml_2.11">
-			<revision name="0.5.0" status="release" pubdate="20181230105645" resolver="public" artresolver="public" homepage="https://github.com/databricks/spark-xml" downloaded="true" searched="true" default="false" conf="default, compile, runtime, default(compile), master" position="10">
+			<revision name="0.5.0" status="release" pubdate="20181230105645" resolver="sbt-chain" artresolver="sbt-chain" homepage="https://github.com/databricks/spark-xml" downloaded="false" searched="false" default="false" conf="default, compile, runtime, default(compile), master" position="10">
 				<license name="Apache License, Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0.html"/>
-				<metadata-artifact status="successful" details="" size="2751" time="291" location="/home/logan/.ivy2/cache/com.databricks/spark-xml_2.11/ivy-0.5.0.xml" searched="true" original-local-location="/home/logan/.ivy2/cache/com.databricks/spark-xml_2.11/ivy-0.5.0.xml.original" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/com/databricks/spark-xml_2.11/0.5.0/spark-xml_2.11-0.5.0.pom"/>
+				<metadata-artifact status="no" details="" size="3323" time="0" location="/home/logan/.ivy2/cache/com.databricks/spark-xml_2.11/ivy-0.5.0.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/com/databricks/spark-xml_2.11/0.5.0/spark-xml_2.11-0.5.0.pom"/>
 				<caller organisation="default" name="xmldemo_2.11" conf="compile" rev="0.5.0" rev-constraint-default="0.5.0" rev-constraint-dynamic="0.5.0" callerrev="1.0"/>
 				<artifacts>
-					<artifact name="spark-xml_2.11" type="jar" ext="jar" status="successful" details="" size="226771" time="1122" location="/home/logan/.ivy2/cache/com.databricks/spark-xml_2.11/jars/spark-xml_2.11-0.5.0.jar">
+					<artifact name="spark-xml_2.11" type="jar" ext="jar" status="no" details="" size="226771" time="0" location="/home/logan/.ivy2/cache/com.databricks/spark-xml_2.11/jars/spark-xml_2.11-0.5.0.jar">
 						<origin-location is-local="false" location="https://repo1.maven.org/maven2/com/databricks/spark-xml_2.11/0.5.0/spark-xml_2.11-0.5.0.jar"/>
 					</artifact>
 				</artifacts>
